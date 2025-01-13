@@ -7,7 +7,7 @@ import delegator
 import requests
 import rich_click as click
 from halo import Halo
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 from moviepy.video.io.ffmpeg_tools import ffmpeg_merge_video_audio
 
 from lotc.utils import (
